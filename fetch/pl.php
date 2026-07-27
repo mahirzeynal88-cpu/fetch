@@ -1,6 +1,6 @@
 <?php
 
-
+// salam pl
 // function reverseArrayInPlace(array &$array) {
 //     $left = 0;
 //     $right = count($array) - 1;

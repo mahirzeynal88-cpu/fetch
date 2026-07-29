@@ -1,0 +1,10 @@
+
+Warning: Module "ftp" is already loaded in Unknown on line 0
+
+Fatal error: Uncaught Error: Call to undefined function each() in C:\Users\User\AppData\Roaming\Sublime Text\Packages\PHPTools\php.tools\codeFormatter.php:54
+Stack trace:
+#0 C:\Users\User\AppData\Roaming\Sublime Text\Packages\PHPTools\php.tools\codeFormatter.php(41): AddMissingCurlyBraces->addBraces('<?php\r\n\r\n// sal...')
+#1 C:\Users\User\AppData\Roaming\Sublime Text\Packages\PHPTools\php.tools\codeFormatter.php(326): AddMissingCurlyBraces->format('<?php\r\n\r\n// sal...')
+#2 C:\Users\User\AppData\Roaming\Sublime Text\Packages\PHPTools\php.tools\codeFormatter.php(1736): CodeFormatter->formatCode('<?php\r\n\r\n// sal...')
+#3 {main}
+  thrown in C:\Users\User\AppData\Roaming\Sublime Text\Packages\PHPTools\php.tools\codeFormatter.php on line 54
